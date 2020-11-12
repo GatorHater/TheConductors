@@ -1,0 +1,78 @@
+body{
+  background-color: #7e8a97;
+  text-align: center;
+  margin: 0;
+}
+
+i {
+
+  font-size: 35px;
+  margin: 0;
+  padding: 20px 20px;
+}
+
+div {
+padding: 0;
+  margin: 0;
+}
+
+
+/* ID sections */
+
+#carouselExampleIndicators{
+  background-color: #7e8a97;
+  padding: 20px 20px;
+}
+
+/*  Class section */
+
+.WelcomeText {
+color: white;
+font-family: cursive;
+}
+
+.picture-carousel{
+  border-radius: 10%;
+  width: 30%;
+  padding-top: 40px;
+}
+
+.fas:hover{
+  color: red;
+}
+
+.fab:hover {
+color: gold;
+}
+
+
+.Players{
+color: white;
+font-family: cursive;
+font-size: 4em;
+padding-top: 60px;
+text-decoration: underline;
+
+}
+
+.Player{
+color: white;
+font-size: 3em;
+font-family: serif;
+}
+
+.Court{
+  text-align: left;
+  padding: 60px 5px;
+}
+
+.BoD{
+  color: white;
+  padding-left: 60px;
+  text-decoration: underline;
+}
+
+.Summary{
+color: white;
+  padding-left: 80px;
+}
