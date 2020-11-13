@@ -70,6 +70,7 @@ font-family: serif;
   color: white;
   padding-left: 60px;
   text-decoration: underline;
+  width: 15%;
 }
 
 .Summary{
@@ -79,4 +80,9 @@ color: white;
 
 .RonsCigar{
   width: 8%;
+}
+
+.PersonalList{
+    width: 8%;
+    padding-left: 60px;
 }
