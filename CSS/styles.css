@@ -167,7 +167,34 @@ body {
   width: auto;
 }
 
+/* Book of the Year */
+.Winner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+.Winner .PersonalList { width: 140px; flex: none; }
+.Winner .Player { margin-bottom: 4px; }
+
+.Rankings {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+.Rankings th, .Rankings td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+.Rankings th { color: var(--accent); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
+.Rankings .Champ td { color: var(--accent); font-weight: 700; }
+
+.PastYears { color: var(--accent); }
+.PastYears:hover { color: #fbbf24; }
+
 @media (max-width: 576px) {
+  .Winner { flex-direction: column; text-align: center; }
   .Books { gap: 12px; }
   .Court { padding: 16px; }
 }
